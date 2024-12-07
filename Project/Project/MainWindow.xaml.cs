@@ -35,7 +35,7 @@ namespace Project
         {
             var screen = new CategoryScreen();
             //Load data from database lên ListView của CategoryScreen khi mở CategoryScreen lên
-            MS loadDatabase = new MS();
+            WilsonDentistryData loadDatabase = new WilsonDentistryData();
             loadDatabase.LoadCategory(screen);
             screen.ShowDialog();
            
@@ -65,7 +65,7 @@ namespace Project
         private void purchaseListBtn(object sender, RoutedEventArgs e)
         {
             var screen = new PurchaseListScreen();
-            MS loadPurchaseList = new MS();
+            WilsonDentistryData loadPurchaseList = new WilsonDentistryData();
             loadPurchaseList.LoadPurchaseList(screen);
             screen.Owner = this;
             screen.ShowDialog();
@@ -74,7 +74,7 @@ namespace Project
         private void productsListtBtn(object sender, RoutedEventArgs e)
         {
             var screen = new ProductsListScreen();
-            MS _loadProducts = new MS();
+            WilsonDentistryData _loadProducts = new WilsonDentistryData();
             _loadProducts.LoadProducts(screen);
             screen.Owner = this;
             screen.ShowDialog();

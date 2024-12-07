@@ -28,7 +28,7 @@ namespace Project
         public void refreshProductBtn(object sender, RoutedEventArgs e)
         {
 
-            MS _loadProducts = new MS();
+            WilsonDentistryData _loadProducts = new WilsonDentistryData();
             _loadProducts.LoadProducts(this);
         }
 

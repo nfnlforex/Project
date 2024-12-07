@@ -38,7 +38,7 @@ namespace Project
                 int selectedPurchaseId = selectedPurchaseView.PurchaseId_view;
                
                 // Truy vấn dữ liệu PurchaseItem từ database
-                MS getPurchaseItems= new MS();
+                WilsonDentistryData getPurchaseItems= new WilsonDentistryData();
                 PurchaseItem selectedPurchase = getPurchaseItems.GetPurchaseItem(selectedPurchaseId);
                 //Gán thông tin đã truy vấn vào object object PurchaseItem
                 int _purchaseId = selectedPurchase.PurchaseId;

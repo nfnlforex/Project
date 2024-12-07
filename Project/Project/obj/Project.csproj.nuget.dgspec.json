@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Project.csproj": {}
+    "D:\\git_project\\Project\\Project\\Project\\Project.csproj": {}
   },
   "projects": {
-    "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Project.csproj": {
+    "D:\\git_project\\Project\\Project\\Project\\Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Project.csproj",
+        "projectUniqueName": "D:\\git_project\\Project\\Project\\Project\\Project.csproj",
         "projectName": "Project",
-        "projectPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\Project.csproj",
-        "packagesPath": "C:\\Users\\LONG\\.nuget\\packages\\",
-        "outputPath": "D:\\Github Code\\Theodore\\HCMUS\\Lap Trinh Ung Dung Quan Ly 2\\Project\\Project\\Project\\obj\\",
+        "projectPath": "D:\\git_project\\Project\\Project\\Project\\Project.csproj",
+        "packagesPath": "C:\\Users\\quoch\\.nuget\\packages\\",
+        "outputPath": "D:\\git_project\\Project\\Project\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LONG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quoch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
