@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Project"
         mc:Ignorable="d"
-        Title="T-MOTOR" Height="600" Width="850" Icon="/images/motorcycle.png"
+        Title="T-MOTOR" Height="600" Width="850" Icon="/images/Logo.png"
          WindowStartupLocation="CenterScreen"
         >
     <!--Tạo backstage để chứa các setting-->
