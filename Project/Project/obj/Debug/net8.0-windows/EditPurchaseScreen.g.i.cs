@@ -158,7 +158,7 @@ namespace Project {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Project;component/editpurchasescreen.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Project;V1.0.0.0;component/editpurchasescreen.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\EditPurchaseScreen.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

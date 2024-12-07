@@ -10,7 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="images\motorcycle.png" />
+    <None Remove="images\LOGOWILSONMAU.ico" />
+    <None Remove="images\LOGOWILSONMAU.png" />
     <None Remove="images\password.png" />
   </ItemGroup>
 
@@ -24,7 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="images\motorcycle.png" />
+    <Resource Include="images\LOGOWILSONMAU.ico" />
+    <Resource Include="images\LOGOWILSONMAU.png" />
     <Resource Include="images\password.png" />
   </ItemGroup>
 

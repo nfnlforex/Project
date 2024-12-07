@@ -54,7 +54,7 @@ namespace Project {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Project;component/tonghop.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Project;V1.0.0.0;component/tonghop.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Tonghop.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
