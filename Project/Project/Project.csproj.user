@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddCategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddProductScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ConfigScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditCategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditProductScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditPurchaseScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="CategoryScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ProductsListScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PurchaseListScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PurchaseScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SellScreen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TestQuery.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Tonghop.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddCategoryScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddProductScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ConfigScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditCategoryScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditProductScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditPurchaseScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CategoryScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ProductsListScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PurchaseListScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PurchaseScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SellScreen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="TestQuery.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Tonghop.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

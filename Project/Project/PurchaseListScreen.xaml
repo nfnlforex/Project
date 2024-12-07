@@ -1,0 +1,32 @@
+﻿<Window x:Class="Project.PurchaseListScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="PurchaseListScreen" Height="450" Width="800">
+    <Canvas>
+        <Button Content="Thêm" Canvas.Left="10" Canvas.Top="10" Height="30" Width="75" Click="addPurchaseBtn"/>
+        <Button Content="Sửa" Canvas.Left="95" Canvas.Top="10" Height="30" Width="75" Click="editPurchaseBtn"/>
+        <Button Content="Xóa" Canvas.Left="180" Canvas.Top="10" Height="30" Width="75" Click="delPurchaseBtn"/>
+        <Label Content="Danh sách mua hàng" Canvas.Left="265" Canvas.Top="48" FontSize="20" FontWeight="Bold" Height="42" Width="226" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <ListView Height="329" x:Name="purchaseList" Canvas.Left="10" Canvas.Top="95" Width="780" d:ItemsSource="{d:SampleData ItemCount=5}" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="STT" DisplayMemberBinding="{Binding STT_view}"/>
+                    <GridViewColumn Header="Mã Hàng" DisplayMemberBinding="{Binding ProductId_view}"/>
+                    <GridViewColumn Header="Tên Hàng" Width="auto" DisplayMemberBinding="{Binding ProductName_view}" />
+                    <GridViewColumn Header="Đơn vị tính" DisplayMemberBinding="{Binding Unit_view}"/>
+                    <GridViewColumn Header="Số lượng" DisplayMemberBinding="{Binding Quantity_view}"/>
+                    <GridViewColumn Header="Đơn giá" DisplayMemberBinding="{Binding Price_view}"/>
+                    <GridViewColumn Header="Thành tiền" DisplayMemberBinding="{Binding Total_view}"/>
+                    <GridViewColumn Header="Số hóa đơn" DisplayMemberBinding="{Binding PurchaseId_view}"/>
+                    <GridViewColumn Header="Ngày hóa đơn" DisplayMemberBinding="{Binding InvoiceDate_view}"/>
+                    <GridViewColumn Header="Thương hiệu" DisplayMemberBinding="{Binding BrandName_view}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Canvas>
+</Window>
