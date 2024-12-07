@@ -44,7 +44,7 @@ namespace Project
                 string description = descriptionTextboxPur.Text;
                 int brand = int.Parse(categoryProductPur.Text);
 
-                WilsonDentistryData purchaseItem = new WilsonDentistryData();
+                NhaKhoaData purchaseItem = new NhaKhoaData();
                 //purchaseItem.CheckCategory(brand);
                 //purchaseItem.DuplicateProduct(id);
                 purchaseItem.AddPurchaseItem(id, quantity, price, total, invoice, invoiceDate, productDate, brand, description);
@@ -62,7 +62,7 @@ namespace Project
         {
             if (int.TryParse(categoryProductPur.Text, out int brand))
             {
-                WilsonDentistryData getData = new WilsonDentistryData();
+                NhaKhoaData getData = new NhaKhoaData();
                 // Gọi hàm để lấy giá trị từ cơ sở dữ liệu
                 string brandName = getData.GetDatabase("category_name","category","category_id",brand);
 
@@ -86,7 +86,7 @@ namespace Project
 
         private void nameChanged(object sender, TextChangedEventArgs e)
         {
-            WilsonDentistryData getProductName = new WilsonDentistryData();
+            NhaKhoaData getProductName = new NhaKhoaData();
             if (int.TryParse(idTextboxPur.Text, out int id))
             {
                 

@@ -35,7 +35,7 @@ namespace Project
         {
             var screen = new CategoryScreen();
             //Load data from database lên ListView của CategoryScreen khi mở CategoryScreen lên
-            WilsonDentistryData loadDatabase = new WilsonDentistryData();
+            NhaKhoaData loadDatabase = new NhaKhoaData();
             loadDatabase.LoadCategory(screen);
             screen.ShowDialog();
            
@@ -57,15 +57,15 @@ namespace Project
 
         private void TonghopBtn(object sender, RoutedEventArgs e)
         {
-            var screen = new TestQuery();
-            screen.Owner = this;
-            screen.ShowDialog();
+            //var screen = new TestQuery();
+            //screen.Owner = this;
+            //screen.ShowDialog();
         }
 
         private void purchaseListBtn(object sender, RoutedEventArgs e)
         {
             var screen = new PurchaseListScreen();
-            WilsonDentistryData loadPurchaseList = new WilsonDentistryData();
+            NhaKhoaData loadPurchaseList = new NhaKhoaData();
             loadPurchaseList.LoadPurchaseList(screen);
             screen.Owner = this;
             screen.ShowDialog();
@@ -74,7 +74,7 @@ namespace Project
         private void productsListtBtn(object sender, RoutedEventArgs e)
         {
             var screen = new ProductsListScreen();
-            WilsonDentistryData _loadProducts = new WilsonDentistryData();
+            NhaKhoaData _loadProducts = new NhaKhoaData();
             _loadProducts.LoadProducts(screen);
             screen.Owner = this;
             screen.ShowDialog();

@@ -46,9 +46,6 @@
     <Compile Update="SellScreen.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="TestQuery.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Tonghop.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -94,9 +91,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="SellScreen.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="TestQuery.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Tonghop.xaml">

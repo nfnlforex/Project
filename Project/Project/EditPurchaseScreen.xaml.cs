@@ -55,7 +55,7 @@ namespace Project
 
 
             //Ghi thông tin vào database
-            WilsonDentistryData editPurchase = new WilsonDentistryData();
+            NhaKhoaData editPurchase = new NhaKhoaData();
             editPurchase.UpdatePurchaseInDatabase(_purchaseItem, oldPurchaseId);
 
 
@@ -72,7 +72,7 @@ namespace Project
         {
             if (int.TryParse(editCatePur.Text, out int brand))
             {
-                WilsonDentistryData getData = new WilsonDentistryData();
+                NhaKhoaData getData = new NhaKhoaData();
                 // Gọi hàm để lấy giá trị từ cơ sở dữ liệu
                 string brandName = getData.GetDatabase("category_name", "category", "category_id", brand);
 
@@ -96,7 +96,7 @@ namespace Project
 
         private void editNameValue(object sender, TextChangedEventArgs e)
         {
-            WilsonDentistryData getProductName = new WilsonDentistryData();
+            NhaKhoaData getProductName = new NhaKhoaData();
             if (int.TryParse(editIdPur.Text, out int id))
             {
 

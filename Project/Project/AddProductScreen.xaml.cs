@@ -46,7 +46,7 @@ namespace Project
 
                 string productUnit = unitTextBox.Text;
 
-                WilsonDentistryData ms = new WilsonDentistryData();
+                NhaKhoaData ms = new NhaKhoaData();
                 ms.DuplicateProduct(productCode);
                 ms.CheckCategory(categoryProduct);
                 ms.AddProduct(productCode, categoryProduct, productName, productDescription, productImage, productUnit);

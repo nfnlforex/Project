@@ -162,10 +162,8 @@ D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\ProductsListScre
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\PurchaseListScreen.g.cs
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\PurchaseScreen.g.cs
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\SellScreen.g.cs
-D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\TestQuery.g.cs
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Tonghop.g.cs
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\App.g.cs
-D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project_Content.g.cs
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project_MarkupCompile.cache
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project_MarkupCompile.lref
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\App.baml
@@ -183,13 +181,13 @@ D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\ProductsListScre
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\PurchaseListScreen.baml
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\PurchaseScreen.baml
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\SellScreen.baml
-D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\TestQuery.baml
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Tonghop.baml
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.g.resources
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.GeneratedMSBuildEditorConfig.editorconfig
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.AssemblyInfoInputs.cache
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.AssemblyInfo.cs
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.csproj.CoreCompileInputs.cache
+D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.sourcelink.json
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.csproj.CopyComplete
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\Project.dll
 D:\git_project\Project\Project\Project\obj\Debug\net8.0-windows\refint\Project.dll

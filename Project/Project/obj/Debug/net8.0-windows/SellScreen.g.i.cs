@@ -126,7 +126,7 @@ namespace Project {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Project;V1.0.0.0;component/sellscreen.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Project;component/sellscreen.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\SellScreen.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -53,7 +53,7 @@ namespace Project
              
                 selectedProduct.ProductCode = int.Parse(editIdTextbox.Text);
                 selectedProduct.ProductUnit = unitTextBox.Text;
-                WilsonDentistryData updateProduct = new WilsonDentistryData();
+                NhaKhoaData updateProduct = new NhaKhoaData();
                 updateProduct.UpdateProductInDatabase(selectedProduct, oldProductCode);
 
                 this.Close();

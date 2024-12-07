@@ -28,7 +28,7 @@ namespace Project
         public void refreshProductBtn(object sender, RoutedEventArgs e)
         {
 
-            WilsonDentistryData _loadProducts = new WilsonDentistryData();
+            NhaKhoaData _loadProducts = new NhaKhoaData();
             _loadProducts.LoadProducts(this);
         }
 
